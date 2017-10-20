@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>local weather</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-1 text-center">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div id="time">13:30 AM</div>
+                <h3 id="city-country" style="margin: 10px; font-family: 'Montserrat', sans-serif; font-size: 20px;">city, country</h3>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+
+                <div id="contents">
+
+                    <div class="circle">
+                        <!--img src="img/rain.jpeg" height="30" width="30"-->
+                        <img id="image-weather" src="">
+
+                        <p id="temperature" style="line-height: 90px; font-family: sans; padding: 0; margin: 0; font-size: 90px; font-family: monospace"></p>
+
+                        <p id="weather-conditions" style="font-size: 15px"></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <button id = "button-fahr" type="button" class="btn btn-default">&degF</button>
+                <button id = "button-cels" type="button" class="btn btn-primary">&degC</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
